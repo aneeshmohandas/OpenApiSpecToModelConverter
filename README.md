@@ -6,7 +6,7 @@
 
 To install the `OpenApiSpecToModelConverter` tool globally, use the following command:
 
-```bash
+``bash
 dotnet tool install -g OpenApiSpecToModelConverter
 
 ## Usage
@@ -15,7 +15,7 @@ Once the tool is installed, you can use it to generate models from an OpenAPI sp
 
 ### Basic Command
 
-```bash
+``bash
 generate-model --InputFile <path-to-openapi-spec> --OutputFileName <output-filename>
 
 ### Parameters
@@ -28,5 +28,5 @@ generate-model --InputFile <path-to-openapi-spec> --OutputFileName <output-filen
 
 Here’s an example command that converts an OpenAPI spec located at `./openapi.yaml` into Type script models in the `output` file:
 
-```bash
-generate-modell --InputFile ./openapui.yaml --OutputFileName output
+``bash
+generate-model --InputFile ./openapui.yaml --OutputFileName output
