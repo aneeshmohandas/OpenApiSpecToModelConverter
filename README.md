@@ -1,6 +1,6 @@
 # OpenApiSpecToModelConverter
 
-`OpenApiSpecToModelConverter` is a .NET tool designed to convert OpenAPI specifications into strongly-typed C# models, making it easier to integrate APIs into your .NET applications.
+`OpenApiSpecToModelConverter` is a .NET tool designed to convert OpenAPI specifications into strongly-typed type script models, making it easier to integrate APIs into your .NET or client side applications.
 
 ## Installation
 
