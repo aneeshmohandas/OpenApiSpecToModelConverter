@@ -31,5 +31,5 @@ generate-model --InputFile <path-to-openapi-spec> --OutputFileName <output-filen
 Here’s an example command that converts an OpenAPI spec located at `./openapi.yaml` into Type script models in the `output` file:
 
 ```bash
-generate-model --InputFile ./openapui.yaml --OutputFileName output
+generate-model --InputFile ./openapi.yaml --OutputFileName output
 ```
