@@ -6,21 +6,26 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackAsTool>true</PackAsTool>
-    <PackageId>OpenApiSpecToModelCoverter</PackageId>
-    <Version>1.0.1</Version>
+    <PackageId>OpenApiSpecToModelConverter</PackageId>
+    <Version>1.0.0</Version>
     <ToolCommandName>generate-model</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <Authors>Aneesh M</Authors>
-    <PackageTags>DOTNET CORE;OPENAPI;GENERATOR;TYPE SCRIPT;MODEL GENERATION</PackageTags>
-    <PackageProjectUrl>https://github.com/aneeshmohandas/OpenApiSpecToModelCoverter</PackageProjectUrl>
+    <PackageTags>DOTNET CORE;OPENAPI;MODEL-GENERATOR;TYPESCRIPT;API;</PackageTags>
+    <PackageProjectUrl>https://github.com/aneeshmohandas/OpenApiSpecToModelConverter</PackageProjectUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-		<RepositoryUrl>https://github.com/aneeshmohandas/OpenApiSpecToModelCoverter</RepositoryUrl>
+		<RepositoryUrl>https://github.com/aneeshmohandas/OpenApiSpecToModelConverter</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>
+    OpenApiSpecToModelConverter is a .NET tool designed to convert OpenAPI specifications into strongly-typed type script models, making it easier to integrate APIs into your .NET or client side applications.
+    </Description>
   </PropertyGroup>
 
   <ItemGroup>
   <None Include="README.md" Pack="true" PackagePath="\"/>
+  <None Include="LICENSE" Pack="true" PackagePath="\"/>
   <PackageReference Include="YamlDotNet" Version="16.0.0" />
 	<PackageReference Include="CommandLineParser" Version="2.8.0" />
   </ItemGroup>
